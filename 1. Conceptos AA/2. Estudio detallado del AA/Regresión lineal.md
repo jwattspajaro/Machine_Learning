@@ -108,3 +108,10 @@ Aunque este modelo usa solo un atributo, un modelo más sofisticado podría basa
     <annotation encoding="application/x-tex">y' = b + w_1x_1 + w_2x_2 + w_3x_3</annotation>
   </semantics>
 </math>
+
+----
+### Términos clave
+- ### [sesgo](https://developers.google.com/machine-learning/glossary?hl=es-419#bias)
+- ### [inferencia](https://developers.google.com/machine-learning/glossary?hl=es-419#inference)
+- ### [regresión lineal](https://developers.google.com/machine-learning/glossary?hl=es-419#linear_regression)
+- ### [peso](https://developers.google.com/machine-learning/glossary?hl=es-419#weight)
