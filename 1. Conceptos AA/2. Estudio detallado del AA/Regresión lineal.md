@@ -56,11 +56,11 @@ Por convención en el aprendizaje automático, escribirás la ecuación de un mo
 
 **Donde:**
 
- * **y'** es la etiqueta predicha (un resultado deseado).
+ * **y'** es la **[etiqueta](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology?hl=es-419#labels)** predicha (un resultado deseado).
  * **b** es el sesgo (la intersección en y), a veces denominado.
  * **w_1**es el peso del atributo 1. El peso es el mismo concepto que la pendiente 
 * **m** en la ecuación tradicional de una línea.
-* **X1** es un atributo (una entrada conocida).
+* **X1** es un **[atributo](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology?hl=es-419#features)** (una entrada conocida).
 Para **inferir** (predecir) la temperatura **y'** para un nuevo valor de cantos por minuto **X1**, solo tienes que sustituir el valor **X1** en este modelo.
 
 Aunque este modelo usa solo un atributo, un modelo más sofisticado podría basarse en varios atributos, cada uno con un peso diferente (
