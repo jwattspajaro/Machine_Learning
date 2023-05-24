@@ -17,14 +17,16 @@ Como era de esperar, la representación muestra que la cantidad de cantos aument
 
 Si bien la línea no atraviesa todos los puntos, muestra la relación entre los cantos y la temperatura. Si usas la ecuación para una línea, puedes anotar esta relación de la siguiente manera:
 
-                                  <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-                                    <mi>y</mi>
-                                    <mo>=</mo>
-                                    <mi>m</mi>
-                                    <mi>x</mi>
-                                    <mo>+</mo>
-                                    <mi>b</mi>
-                                  </math>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>y</mi>
+  <mo>=</mo>
+  <mi>m</mi>
+  <mi>x</mi>
+  <mo>+</mo>
+  <mi>b</mi>
+</math>
+
  Donde:
 
 * **y** es la temperatura en Celsius, el valor que intentamos predecir.
@@ -34,20 +36,33 @@ Si bien la línea no atraviesa todos los puntos, muestra la relación entre los 
 
 Por convención en el aprendizaje automático, escribirás la ecuación de un modelo un poco diferente:
 
-                                            <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-                                              <msup>
-                                                <mi>y</mi>
-                                                <mo>&#x2032;</mo>
-                                              </msup>
-                                              <mo>=</mo>
-                                              <mi>b</mi>
-                                              <mo>+</mo>
-                                              <msub>
-                                                <mi>w</mi>
-                                                <mn>1</mn>
-                                              </msub>
-                                              <msub>
-                                                <mi>x</mi>
-                                                <mn>1</mn>
-                                              </msub>
-                                            </math>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <msup>
+    <mi>y</mi>
+    <mo>&#x2032;</mo>
+  </msup>
+  <mo>=</mo>
+  <mi>b</mi>
+  <mo>+</mo>
+  <msub>
+    <mi>w</mi>
+    <mn>1</mn>
+  </msub>
+  <msub>
+    <mi>x</mi>
+    <mn>1</mn>
+  </msub>
+</math>
+
+**Donde:**
+
+ * **y'** es la etiqueta predicha (un resultado deseado).
+ * **b** es el sesgo (la intersección en y), a veces denominado.
+ * **w_1**es el peso del atributo 1. El peso es el mismo concepto que la pendiente 
+* **m** en la ecuación tradicional de una línea.
+* **x_1** es un atributo (una entrada conocida).
+Para **inferir** (predecir) la temperatura **y'** para un nuevo valor de cantos por minuto **x_1**, solo tienes que sustituir el valor **x_1** en este modelo.
+
+Aunque este modelo usa solo un atributo, un modelo más sofisticado podría basarse en varios atributos, cada uno con un peso diferente (
+, 
+, etc.). Por ejemplo, un modelo que se basa en tres atributos podría verse de la siguiente
