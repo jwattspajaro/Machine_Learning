@@ -1,0 +1,53 @@
+### Regresión lineal 
+
+#### bookmark_border
+Tiempo estimado: 6 minutos
+**Hace mucho tiempo se sabe que los grillos (una especie de insecto) cantan con más frecuencias en los días de más calor. Durante décadas, científicos profesionales y aficionados han catalogado datos sobre cantos por minuto y temperatura. Como regalo de cumpleaños, tu tía Ruth te da su base de datos de críquet y te pide que aprendas un modelo para predecir esta relación. Con estos datos, desea explorar esta relación.**
+
+Primero, examina tus datos mediante un trazado:
+![image](https://github.com/jwattspajaro/Machine_Learning/assets/18930760/abd90c7b-93bb-4f91-be90-0a275db2f4a0)
+
+### Figura 1 Cantos por minuto contra temperatura en grados Celsius
+
+Como era de esperar, la representación muestra que la cantidad de cantos aumenta. ¿Es lineal la relación entre los cantos y la temperatura? Sí, puedes dibujar una línea recta como la siguiente para aproximar esta relación:
+
+![image](https://github.com/jwattspajaro/Machine_Learning/assets/18930760/e2ad4068-28ba-4fdb-a060-de159c530de0)
+
+### Figura 2: Una relación lineal.
+
+Si bien la línea no atraviesa todos los puntos, muestra la relación entre los cantos y la temperatura. Si usas la ecuación para una línea, puedes anotar esta relación de la siguiente manera:
+
+                                  <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                                    <mi>y</mi>
+                                    <mo>=</mo>
+                                    <mi>m</mi>
+                                    <mi>x</mi>
+                                    <mo>+</mo>
+                                    <mi>b</mi>
+                                  </math>
+ Donde:
+
+* **y** es la temperatura en Celsius, el valor que intentamos predecir.
+* **m** es la pendiente de la línea.
+* **x** es la cantidad de cantos por minuto, el valor de nuestro atributo de entrada.
+* **b** es la intersección en y.
+
+Por convención en el aprendizaje automático, escribirás la ecuación de un modelo un poco diferente:
+
+                                            <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                                              <msup>
+                                                <mi>y</mi>
+                                                <mo>&#x2032;</mo>
+                                              </msup>
+                                              <mo>=</mo>
+                                              <mi>b</mi>
+                                              <mo>+</mo>
+                                              <msub>
+                                                <mi>w</mi>
+                                                <mn>1</mn>
+                                              </msub>
+                                              <msub>
+                                                <mi>x</mi>
+                                                <mn>1</mn>
+                                              </msub>
+                                            </math>
