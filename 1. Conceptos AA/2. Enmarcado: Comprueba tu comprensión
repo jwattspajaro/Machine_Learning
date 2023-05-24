@@ -1,0 +1,35 @@
+### Aprendizaje supervisado
+#### Explora las siguientes opciones.
+
+| **Imagina que quieres desarrollar un modelo de aprendizaje automático supervisado para predecir si un correo electrónico determinado es spam o no es spam. ¿Cuáles de las siguientes afirmaciones son verdaderas?** |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Las palabras en el encabezado del asunto serán buenas etiquetas.                                                                                                                                                |
+Las palabras en el encabezado del asunto pueden ser excelentes atributos, pero no son buenas etiquetas.
+Vuelve a intentarlo.
+Usaremos ejemplos sin etiqueta para entrenar el modelo.
+Usaremos ejemplos etiquetados para entrenar el modelo. Luego, podemos ejecutar el modelo entrenado en ejemplos sin etiqueta para inferir si los mensajes de correo electrónico sin etiqueta son spam o no son spam.
+Vuelve a intentarlo.
+Los correos electrónicos que no están marcados como "spam" o "no es spam" son ejemplos sin etiqueta.
+Debido a que nuestra etiqueta consiste en los valores "no es spam" y "no es spam", cualquier correo electrónico que aún no se haya marcado como spam o que no sea spam es un ejemplo sin etiqueta.
+1 de 2 respuestas correctas.
+Es posible que las etiquetas aplicadas a algunos ejemplos no sean confiables.
+Sin duda. Es importante verificar la confiabilidad de tus datos. Es probable que las etiquetas de este conjunto de datos provengan de usuarios de correo electrónico que marcan determinados mensajes como spam. Dado que la mayoría de los usuarios no marcan todos los correos electrónicos sospechosos como spam, es posible que tengamos problemas para saber si un correo electrónico es spam. Además, los generadores de spam podrían contaminar intencionalmente nuestro modelo al proporcionar etiquetas defectuosas.
+2 de 2 respuestas correctas.
+
+### Funciones y etiquetas
+Explora las siguientes opciones.
+
+|**Imagina que una tienda de calzado en línea quiere crear un modelo de AA supervisado que proporcione a los usuarios recomendaciones personalizadas sobre calzado. Es decir, el modelo recomendará ciertos pares de zapatos a Marty y diferentes pares de zapatos a Janet. El sistema utilizará los datos anteriores del comportamiento del usuario para generar datos de entrenamiento. ¿Cuáles de las siguientes afirmaciones son verdaderas?** |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+"El usuario hizo clic en la descripción del zapato" es una etiqueta útil.
+Es probable que los usuarios solo quieran leer más sobre esos zapatos que les gustan. Por lo tanto, los clics por usuario son una métrica observable y cuantificable que podría funcionar como una buena etiqueta de entrenamiento. Debido a que nuestros datos de entrenamiento derivan del comportamiento anterior de los usuarios, nuestras etiquetas deben derivar de comportamientos objetivos, como los clics, que se relacionan estrechamente con las preferencias del usuario.
+1 de 2 respuestas correctas.
+"Zapatos que adora un usuario" es una etiqueta útil.
+La adoración no es una métrica observable y cuantificable. Lo mejor que podemos hacer es buscar métricas del proxy observables para la adoración.
+Vuelve a intentarlo.
+La belleza del calzado es útil.
+Los buenos atributos son concretos y cuantificables. La belleza es un concepto demasiado impreciso como un atributo útil. La belleza probablemente sea una combinación de ciertas características concretas, como estilo y color. El estilo y el color serían mejores atributos que la belleza.
+Vuelve a intentarlo.
+El "tamaño del calzado" es una función útil.
+El “tamaño del calzado” es un indicador cuantificable que probablemente tenga un fuerte impacto en el hecho de que al usuario le gusten los zapatos recomendados. Por ejemplo, si María usa la talla 9, el modelo no debería recomendar zapatos de talla 7.
+2 de 2 respuestas correctas.
